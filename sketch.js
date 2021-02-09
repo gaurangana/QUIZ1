@@ -1,6 +1,6 @@
 var canva ;
 var gameState = 0 ;
-var  constestantCount , database ;
+var  contestantCount , database ;
 var  quiz , question , contestant ;
 
 
