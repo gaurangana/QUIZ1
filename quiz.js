@@ -23,7 +23,7 @@ class Quiz{
             var contestantCountRef = await database.ref('contestantCount').once("value") ;
             if(contestantCountRef.exists()){
              contestantCount = contestantCountRef.val() ;
-             constestant.getCount() ;
+             contestant.getCount() ;
             } 
             question = new Question() ;
             question.display() ;
