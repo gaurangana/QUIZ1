@@ -6,7 +6,7 @@ class Contestant{
     }
     getCount(){
         database.ref("contestantCount").on("value", function(data){
-            pCount = data.val()
+            contestantCount = data.val()
             }
               )
                   }
