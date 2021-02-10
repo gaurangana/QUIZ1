@@ -2,9 +2,10 @@ class Question{
     constructor(){
 
       this.title= createElement("h3")
-      this.question = createQuestion("enter name");
+      this.question = createElement("h3");
       this.option1 = createButton('Play');
       this.option2 = createElement('h3');
+      
   
       }
   hide(){
